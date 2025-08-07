@@ -61,10 +61,11 @@ ul {
 }
 .skill {
     background: #e6f0fa;
-    color: #0078d7;
+    color: #2d3235;
     padding: 6px 16px;
     border-radius: 20px;
     font-size: 1rem;
+    font-weight: 700;
 }
 .theme-toggle {
     position: absolute;

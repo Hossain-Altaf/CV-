@@ -1,0 +1,103 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    color: #222;
+}
+.cv-container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    border-radius: 12px;
+    padding: 40px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 24px;
+    margin-bottom: 32px;
+}
+.profile-pic {
+    width: 130px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 32px;
+    border: 3px solid #0078d7;
+}
+.header-info h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #0078d7;
+}
+.header-info p {
+    margin: 8px 0 0 0;
+    font-size: 1.1rem;
+    color: #555;
+}
+.contact {
+    margin-top: 16px;
+    font-size: 1rem;
+}
+.section {
+    margin-bottom: 32px;
+}
+.section h2 {
+    color: #0078d7;
+    margin-bottom: 12px;
+    font-size: 1.3rem;
+    border-left: 4px solid #0078d7;
+    padding-left: 10px;
+}
+ul {
+    padding-left: 20px;
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.skill {
+    background: #e6f0fa;
+    color: #0078d7;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+.theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    background: #0078d7;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 18px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+body.dark {
+    background: #222;
+    color: #eee;
+}
+body.dark .cv-container {
+    background: #2d2d2d;
+    color: #eee;
+}
+body.dark .section h2 {
+    color: #90cdf4;
+    border-left-color: #90cdf4;
+}
+body.dark .skill {
+    background: #333;
+    color: #90cdf4;
+}
+body.dark .profile-pic {
+    border-color: #90cdf4;
+}
+body.dark .theme-toggle {
+    background: #90cdf4;
+    color: #222;
+}
